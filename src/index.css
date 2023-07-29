@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(245, 241, 241);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: rgb(213, 219, 224);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.253);
+  padding: 20px;
+  margin-top: 10vh;
+  text-align: center;
+  width: 55vh;
+  height: 55vh;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 50px;
+  width: 30vh;
+}
+
+.primary-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-info-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.37);
+  padding: 20px;
+  border-radius: 5px;
+  width: 20vh;
+  height: 25vh;
+  align-items: center;
+}
+
+.toggleTempBtn {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 15vh;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+img {
+  width: 15vh;
+  margin: auto;
+}
